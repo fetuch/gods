@@ -8,7 +8,7 @@ const Header = () => {
         Home
       </NavLink>
       {" | "}
-      <NavLink to="/">Gods</NavLink>
+      <NavLink to="/gods">Gods</NavLink>
     </nav>
   );
 };
