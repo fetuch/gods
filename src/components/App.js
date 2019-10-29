@@ -6,14 +6,15 @@ import GodsPage from "./gods/GodsPage";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <>
       <Header />
-
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/gods" component={GodsPage} />
-      </Switch>
-    </div>
+      <div className="container-fluid">
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/gods" component={GodsPage} />
+        </Switch>
+      </div>
+    </>
   );
 }
 
