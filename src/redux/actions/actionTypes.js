@@ -1,0 +1,1 @@
+export const LOAD_GODS_SUCCESS = "LOAD_GODS_SUCCESS";

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="container-fluid">
+      <div className="container mt-5">
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/gods" component={GodsPage} />
