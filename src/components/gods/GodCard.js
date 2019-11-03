@@ -3,10 +3,12 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const CardContainer = styled.div`
+  display: inline-block;
   border: 1px solid black;
   width: 100%;
   height: auto;
   padding: 1rem;
+  margin-bottom: 1rem;
   border-radius: 25px;
   box-sizing: border-box;
   box-shadow: -8px 9px 16px -3px gray;
@@ -97,12 +99,7 @@ const GodCard = ({ god }) => {
           <FrameArt src={god.avatar} alt={god.name} />
 
           <FrameTypeLine>
-            <SubTitle>Legendary Enchantment</SubTitle>
-            <img
-              src="https://image.ibb.co/kzaLjn/OGW_R.png"
-              id="set-icon"
-              alt="OGW-icon"
-            />
+            <SubTitle>First generation</SubTitle>
           </FrameTypeLine>
 
           <FrameTextBox>{god.description}</FrameTextBox>
